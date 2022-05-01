@@ -32,6 +32,10 @@ app.route("/")
     .catch((err)=> console.log(err))
     console.log(newUser)
 
+
+
+
+    
     if (res.statusCode === 200) {
         res.send("successfully added to database")
     }
